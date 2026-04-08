@@ -1,0 +1,4 @@
+[
+  {"id":"j1","date":"2026-04-01","amount":900,"reference":"INV-190","type":"credit","source":"api"},
+  {"id":"j2","date":"2026-04-01","amount":-900,"reference":"INV-190","type":"debit","source":"api"}
+]

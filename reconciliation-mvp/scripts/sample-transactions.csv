@@ -1,0 +1,4 @@
+id,date,amount,reference,type,source
+1,2026-04-01,350,INV-1001,credit,bank_a
+2,2026-04-01,-350,INV-1001,debit,erp
+3,2026-04-01,25000,WIRE-900,debit,bank_a
