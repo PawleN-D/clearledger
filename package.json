@@ -1,0 +1,22 @@
+{
+  "name": "clearledger",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "api-gateway",
+    "ingestion-service",
+    "reconciliation-engine",
+    "reporting-service",
+    "frontend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "dev:gateway": "npm run dev -w api-gateway",
+    "dev:ingestion": "npm run dev -w ingestion-service",
+    "dev:reconciliation": "npm run dev -w reconciliation-engine",
+    "dev:reporting": "npm run dev -w reporting-service",
+    "dev:frontend": "npm run dev -w frontend"
+  }
+}
